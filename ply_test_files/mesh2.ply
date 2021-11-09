@@ -1,0 +1,20 @@
+ply
+format ascii 1.0
+element vertex 7
+property float32 x
+property float32 y
+property float32 z
+element face 4
+property list uint8 int32 vertex_indices
+end_header
+0.0 3.14159 69.420
+Invalid file line
+90.0 94.0 31.1
+45.0 -5.14159 -42.6909
+1.23 14.14141414 1100.4
+98.0 7.0 -6.5
+81.69 69.74 3.1415926535
+3 0 1 2
+3 3 4 5
+3 1 4 6
+3 0 5 6
