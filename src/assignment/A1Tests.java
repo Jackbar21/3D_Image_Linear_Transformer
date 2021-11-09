@@ -2,9 +2,7 @@ package assignment;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedHashSet;
 
@@ -12,6 +10,8 @@ import org.junit.jupiter.api.Test;
 
 class A1Tests {
 
+	static String directory = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/";
+	
 	// GRAPHICAL OBJECT TESTS (START) //
 	
 	@Test
@@ -2151,7 +2151,7 @@ class A1Tests {
 	@Test
 	void OBJMeshReader_read1() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/obj_test_files/invalidFile.obj";
+		String fileName = directory + "obj_test_files/invalidFile.obj";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2165,7 +2165,7 @@ class A1Tests {
 	@Test
 	void OBJMeshReader_read2() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/obj_test_files/mesh1.obj";
+		String fileName = directory + "obj_test_files/mesh1.obj";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2230,7 +2230,7 @@ class A1Tests {
 	@Test
 	void OBJMeshReader_read3() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/obj_test_files/mesh2.obj";
+		String fileName = directory + "obj_test_files/mesh2.obj";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2244,7 +2244,7 @@ class A1Tests {
 	@Test
 	void OBJMeshReader_read4() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/obj_test_files/mesh3.obj";
+		String fileName = directory + "obj_test_files/mesh3.obj";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2264,7 +2264,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read1() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/invalidFile.ply";
+		String fileName = directory + "ply_test_files/invalidFile.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2278,7 +2278,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read2() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/mesh_empty.ply";
+		String fileName = directory + "ply_test_files/mesh_empty.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2292,7 +2292,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read3() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/mesh_noPolygons.ply";
+		String fileName = directory + "ply_test_files/mesh_noPolygons.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2306,7 +2306,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read4() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/mesh1.ply";
+		String fileName = directory + "ply_test_files/mesh1.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2371,7 +2371,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read5() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/mesh2.ply";
+		String fileName = directory + "ply_test_files/mesh2.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2385,7 +2385,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read6() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/mesh3.ply";
+		String fileName = directory + "ply_test_files/mesh3.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2399,7 +2399,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read7() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/mesh4.ply";
+		String fileName = directory + "ply_test_files/mesh4.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2413,7 +2413,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read8() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/mesh5.ply";
+		String fileName = directory + "ply_test_files/mesh5.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2427,7 +2427,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read9() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/mesh6.ply";
+		String fileName = directory + "ply_test_files/mesh6.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2441,7 +2441,7 @@ class A1Tests {
 	@Test
 	void PLYMeshReader_read10() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/mesh7.ply";
+		String fileName = directory + "ply_test_files/mesh7.ply";
 		
 		Mesh mesh = new Mesh();
 		
@@ -2461,7 +2461,7 @@ class A1Tests {
 	@Test
 	void OBJMeshWriter_write1() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/obj_test_files/new_mesh1.obj";
+		String fileName = directory + "obj_test_files/new_mesh1.obj";
 		
 		Vertex vertex1 = new Vertex(0, 3.14159, 69.420);
 		Vertex vertex2 = new Vertex(420.69, 9.86960, 69420);
@@ -2534,7 +2534,7 @@ class A1Tests {
 	@Test
 	void PLYMeshWriter_write1() throws IOException
 	{
-		String fileName = "/Users/alejandro/Desktop/b07/ASSIGNMENTS/A1/ply_test_files/new_mesh1.ply";
+		String fileName = directory + "ply_test_files/new_mesh1.ply";
 		
 		Vertex vertex1 = new Vertex(0, 3.14159, 69.420);
 		Vertex vertex2 = new Vertex(420.69, 9.86960, 69420);
