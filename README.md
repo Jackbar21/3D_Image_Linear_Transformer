@@ -8,8 +8,6 @@ Conveniently, every valid Linear Transformation T: V -> W (where V and W are vec
 
 From this knowledge, we can take graphical elements such as vertices, polygons and meshes and apply any desired Linear Transformation with the use of matrix algebra. To illustrate an example, we could take a vertex **v** = (Vx, Vy, Vz) and rotate it about the y axis by π/3 radians with the 3x3 Matrix:
 
-[ cos(π/3) 0 sin(π/3) ]
-
-[    0     1     0    ]
-
-[-sin(π/3) 0 cos(π/3) ]
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
