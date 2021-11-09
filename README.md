@@ -2,7 +2,7 @@
 
 In computer graphics, an object is usually represented by dividing its surface into a set of polygons (also called faces). Such a set is called a mesh.
 
-In linear algebra, Linear Transformations can be used to redirect and alter every graphical element (such as vectors or matrices) within a Vector Space.
+In linear algebra, Linear Transformations can be used to redirect and alter graphical elements (such as vectors and matrices) within a Vector Space.
 
 Conveniently, every valid Linear Transformation T: V -> W (where V and W are vector spaces) can be defined as a matrix A of size dim(W) x dim(V) (where dim(V) and dim(W) represent the dimensions of the Vector Spaces V and W, respectively).
 
