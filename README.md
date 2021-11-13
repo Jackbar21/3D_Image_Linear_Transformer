@@ -30,3 +30,16 @@ They are defined as follows:
     
     d.) rotateZAxis: a concrete method that rotates the graphical object around the z-axis. It takes in one 
         parameter of type double representing the angle θ.
+
+**2.) GraphicalObject** - An abstract class that represents graphical objects (such as vertices and polygons) that can be transformed using a matrix. It has the following **void** methods:
+
+    a.) transform: an abstract method that takes a two-dimensional matrix of type double as its only parameter.
+    
+    b.) rotateXAxis: a concrete method that rotates the graphical object around the x-axis. It takes in one 
+        parameter of type double representing the angle θ.
+        
+    c.) rotateYAxis: a concrete method that rotates the graphical object around the y-axis. It takes in one 
+        parameter of type double representing the angle θ.
+    
+    d.) rotateZAxis: a concrete method that rotates the graphical object around the z-axis. It takes in one 
+        parameter of type double representing the angle θ.
