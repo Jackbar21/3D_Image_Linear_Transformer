@@ -22,4 +22,5 @@ They are defined as follows:
 
     a.) transform: an abstract method that takes a two-dimensional matrix of type double as its only parameter.
     
-    b.) rotateXAxis: a concrete method that rotates the graphical object around the x-axis. It takes in one parameter of type double representing the angle θ.
+    b.) rotateXAxis: a concrete method that rotates the graphical object around the x-axis. It takes in one 
+    parameter of type double representing the angle θ.
