@@ -14,10 +14,10 @@ Such that **v** would then be transformed into:
 
 <img width="434" alt="Screen Shot 2021-11-09 at 1 47 38 PM" src="https://user-images.githubusercontent.com/86801013/140985812-9cc79434-c5bb-4513-9828-afd489b3b99f.png">
 
-In this program, I've defined each mesh as a set of polygons and each polygon as a set of vertices. I've defined a class named Vertex in Vertex.java, as well as a Polygon class in Polygon.java and a Mesh class in Mesh.java.
+In this program, I've defined each mesh as a set of polygons and each polygon as a set of vertices. In total, I have defined exactly six classes and two interfaces in their respective files (i.e. the Vertex class is in the Vertex.java file).
 
-Each of these classes inherit from GraphicalObject.java, which has an abstract method named 'transform' that takes in a matrix as input. I have also defined three methods within GraphicalObject that may be used by any class that inherits from it: rotateXAxis, rotateYAxis and rotateZAxis.
+They are defined as follows:
 
-These methods take a parameter 'angle_theta' of type double and simply call the abstract 'transform' method with the corresponding matrix (alongside the angle value from the input parameter) to the desired rotation transformation. For example, if rotateXAxis was called with π/3 as the input parameter, then the 'transform' method would be called with the previously illustrated matrix Rx(θ) (where θ = π/3) as its input parameter.
-
-Now for the Vertex, Polygon and Mesh classes, as mentioned before they each inherit from (extend) GraphicalObject. Hence, they all 
+**1.) GraphicalObject** _(class)_
+    a.) **transform**: an abstract method that takes a two-dimensional
+          matrix of type double
