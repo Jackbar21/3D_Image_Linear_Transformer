@@ -44,9 +44,9 @@ They are defined as follows:
     
     e.) It overrides toString by returning a string containing the three coordinates seperated by a space (e.g. "x y z").
     
-    f.) It overrides transform by taking the 3x3 matrix parameter and updating the Vertex's fields to their corresponding 
-        values after applying the Linear Transformation (i.e. treating the x, y and z fields as a 3x1 matrix and multiplying 
-        the 3x3 input matrix from the left and updating the fields to reflect their new values).
+    f.) It overrides transform by taking the input 3x3 matrix parameter and updating the fields to their new corresponding 
+        values after applying the Linear Transformation (i.e. treating the x, y and z fields as a 3x1 matrix and 
+        multiplying the 3x3 input matrix from the left and updating the x, y and z fields to their new respective values).
     
     
 **3.) Polygon** - A concrete class that represents a multi-sided polygon as a set of vertices (from Vertex) in 3-dimensional space. It is defined as follows:
@@ -59,4 +59,5 @@ They are defined as follows:
     
     d.) It overrides hashCode and equals and redesigns them appropriately for this program.
     
-    e.) It overrides toString by r
+    e.) It overrides transform by iterating through each Vertex within the vertices field and calling transform upon them all (with transform being the 
+        method defined/overriden from the Vertex class).
