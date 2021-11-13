@@ -20,4 +20,4 @@ They are defined as follows:
 
 **GraphicalObject** - An abstract class that represents graphical objects (such as vertices and polygons) that can be transformed using a matrix. It has the following void methods:
 
-a.) d
+  a.) d
