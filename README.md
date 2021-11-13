@@ -19,5 +19,7 @@ In this program, I've defined each mesh as a set of polygons and each polygon as
 They are defined as follows:
 
 **1.) GraphicalObject** _(class)_
+
     a.) **transform**: an abstract method that takes a two-dimensional
+    
           matrix of type double
