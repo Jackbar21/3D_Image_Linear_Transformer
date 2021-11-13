@@ -1,6 +1,6 @@
 # 3D Image Linear Transformer
 
-In computer graphics, an object is usually represented by dividing its surface into a set of polygons (which are also called faces). Such a set is called a mesh.
+In computer graphics, an object is usually represented by dividing its surface into a set of polygons called 'faces'. Such a set is called a mesh.
 
 In linear algebra, Linear Transformations can be used to redirect and alter graphical elements (such as vectors and matrices) within a Vector Space.
 
