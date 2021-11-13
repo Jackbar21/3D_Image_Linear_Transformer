@@ -21,5 +21,4 @@ They are defined as follows:
 **1.) GraphicalObject** _(class)_
 
     a.) **transform**: an abstract method that takes a two-dimensional
-    
-          matrix of type double
+        matrix of type double
