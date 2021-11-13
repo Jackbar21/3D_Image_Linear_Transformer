@@ -18,4 +18,4 @@ In this program, I've defined each mesh as a set of polygons and each polygon as
 
 They are defined as follows:
 
-#### 1.) GraphicalObject - An abstract class that represents graphical objects (such as vertices and polygons) that can be transformed using a matrix.
+**GraphicalObject** - An abstract class that represents graphical objects (such as vertices and polygons) that can be transformed using a matrix.
