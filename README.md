@@ -30,12 +30,24 @@ They are defined as follows:
     
     d.) rotateZAxis: a concrete method that rotates the graphical object around the z-axis. It takes in one 
         parameter of type double representing the angle θ.
-
-
-
+        
+        
 **2.) Vertex** - A concrete class that represents a point (x, y, z) in 3-dimensional space. It is defined as follows:
 
     a.) It has three fields of type double representing the x, y and z coordinates of the vertex (in 3-dimensional space).
+    
+    b.) It has a constructor that takes three arguments of type double and initializes the coordinate fields accordingly.
+        
+    c.) It inherits from (extends) the GraphicalObject class.
+    
+    d.) It overrides hashCode and equals and redesigns them appropriately for this program.
+    
+    e.) It overrides toString by returning a string containing the three coordinates seperated by a space (e.g. "x y z").
+    
+    
+**2.) Polygon** - A concrete class that represents a multi-sided polygon as a set of vertices (from Vertex) in 3-dimensional space. It is defined as follows:
+
+    a.) It has one field of type LinkedHashSet<Vertex> named vertices. 
     
     b.) It has a constructor that takes three arguments of type double and initializes the coordinate fields accordingly.
         
