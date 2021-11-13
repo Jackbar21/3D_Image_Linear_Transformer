@@ -14,4 +14,4 @@ Such that **v** would then be transformed into:
 
 <img width="434" alt="Screen Shot 2021-11-09 at 1 47 38 PM" src="https://user-images.githubusercontent.com/86801013/140985812-9cc79434-c5bb-4513-9828-afd489b3b99f.png">
 
-In this program, I've defined each mesh as a set of polygons and each polygon as a set of vertices. I've defined a class named Vertex in Vertex.java, Polygon in Polygon.java and Mesh in Mesh.java.
+In this program, I've defined each mesh as a set of polygons and each polygon as a set of vertices. I've defined a class named Vertex in Vertex.java, as well as a Polygon class in Polygon.java and a Mesh class in Mesh.java.
