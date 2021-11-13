@@ -32,15 +32,14 @@ They are defined as follows:
         parameter of type double representing the angle θ.
 
 
-**2.) Vertex** - A concrete class that represents a point (x, y, z) in 3-dimensional space. It has the following fields and methods:
+**2.) Vertex** - A concrete class that represents a point (x, y, z) in 3-dimensional space. It is defined as follows:
 
-    a.) transform: an abstract method that takes a two-dimensional matrix of type double as its only parameter.
+    a.) It has three fields of type double representing the x, y and z coordinates of the vertex (in 3-dimensional space).
     
-    b.) rotateXAxis: a concrete method that rotates the graphical object around the x-axis. It takes in one 
-        parameter of type double representing the angle θ.
+    b.) It has a constructor that takes three arguments of type double and initializes the coordinate fields accordingly.
         
-    c.) rotateYAxis: a concrete method that rotates the graphical object around the y-axis. It takes in one 
-        parameter of type double representing the angle θ.
+    c.) It inherits from (extends) the GraphicalObject class.
     
-    d.) rotateZAxis: a concrete method that rotates the graphical object around the z-axis. It takes in one 
-        parameter of type double representing the angle θ.
+    d.) It overrides hashCode and equals and redesigns them appropriately for this program.
+    
+    e.) It overrides toString by returning a string containing the three coordinates seperated by a space (e.g. "x y z").
