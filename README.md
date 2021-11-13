@@ -36,23 +36,25 @@ They are defined as follows:
 
     a.) It has three fields of type double representing the x, y and z coordinates of the vertex (in 3-dimensional space).
     
-    b.) It has a constructor that takes three arguments of type double and initializes the coordinate fields accordingly.
+    b.) It has a constructor that takes three parameters of type double and initializes the coordinate fields accordingly.
         
-    c.) It inherits from (extends) the GraphicalObject class.
+    c.) It inherits from the GraphicalObject class.
     
     d.) It overrides hashCode and equals and redesigns them appropriately for this program.
     
     e.) It overrides toString by returning a string containing the three coordinates seperated by a space (e.g. "x y z").
     
+    f.) It overrides transform by taking a 3x3 matrix as its parameter and updates the fields to reflect their values after being applied that matrix as   a Linear Transformation.
     
-**2.) Polygon** - A concrete class that represents a multi-sided polygon as a set of vertices (from Vertex) in 3-dimensional space. It is defined as follows:
+    
+**3.) Polygon** - A concrete class that represents a multi-sided polygon as a set of vertices (from Vertex) in 3-dimensional space. It is defined as follows:
 
     a.) It has one field of type LinkedHashSet<Vertex> named vertices. 
     
-    b.) It has a constructor that takes three arguments of type double and initializes the coordinate fields accordingly.
+    b.) It has a constructor that takes one parameter of type LinkedHashSet<Vertex> and initializes the vertices field accordingly.
         
-    c.) It inherits from (extends) the GraphicalObject class.
+    c.) It inherits from the GraphicalObject class.
     
     d.) It overrides hashCode and equals and redesigns them appropriately for this program.
     
-    e.) It overrides toString by returning a string containing the three coordinates seperated by a space (e.g. "x y z").
+    e.) It overrides toString by r
