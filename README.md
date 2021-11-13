@@ -18,7 +18,8 @@ In this program, I've defined each mesh as a set of polygons and each polygon as
 
 They are defined as follows:
 
-**1.) GraphicalObject** - An abstract class that represents graphical objects (such as vertices and polygons) that can be transformed using a matrix. It has the following void methods:
+**1.) GraphicalObject** - An abstract class that represents graphical objects (such as vertices and polygons) that can be transformed using a matrix. It has the following **void** methods:
 
     a.) transform: an abstract method that takes a two-dimensional matrix of type double as its only parameter.
-    b.) rotateXAxis:
+    
+    b.) rotateXAxis: a concrete method that rotates the graphical object around the x-axis. It takes in one parameter of type double representing the angle θ.
