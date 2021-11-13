@@ -32,6 +32,7 @@ They are defined as follows:
         parameter of type double representing the angle θ.
 
 
+
 **2.) Vertex** - A concrete class that represents a point (x, y, z) in 3-dimensional space. It is defined as follows:
 
     a.) It has three fields of type double representing the x, y and z coordinates of the vertex (in 3-dimensional space).
